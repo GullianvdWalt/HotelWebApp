@@ -10,7 +10,8 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatListModule } from '@angular/material/list';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatTabsModule } from '@angular/material/tabs';
-
+import { MatGridListModule } from '@angular/material/grid-list';
+import { MatCardModule } from '@angular/material/card';
 
 @NgModule({
     imports: [
@@ -23,7 +24,10 @@ import { MatTabsModule } from '@angular/material/tabs';
          MatToolbarModule,
          MatListModule,
          MatSidenavModule,
-         MatTabsModule
+         MatTabsModule,
+        MatGridListModule,
+        MatCardModule
+
     ],
     exports: [
         MatBadgeModule,
@@ -35,7 +39,9 @@ import { MatTabsModule } from '@angular/material/tabs';
         MatToolbarModule,
         MatListModule,
         MatSidenavModule,
-        MatTabsModule
+        MatTabsModule,
+        MatGridListModule,
+        MatCardModule
     ]
 })
 
